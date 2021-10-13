@@ -1,0 +1,23 @@
+{
+    "name": "medine/behatquickstart",
+    "description": "Behat quick start",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Medine\\Behatquickstart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Marcano",
+            "email": "fjmn2001@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "behat/behat": "^3.8"
+    }
+}

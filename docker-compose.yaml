@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+ behatquickstart-php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: behatquickstart-php
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "9041:80"
+    networks:
+      - behatquickstart-network
+
+networks:
+  behatquickstart-network:
