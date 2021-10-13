@@ -2,4 +2,4 @@
 
 declare(strict_types=1);
 
-echo 'hi there 2';
+echo 'hi there 3';
